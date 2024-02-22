@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: rgb(32, 32, 87);
+}
+.left{
+    /* border: 1px solid; */
+    width: 50%;
+}
+.right{
+    /* border: 1px solid; */
+    width: 50%;
+
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+li{
+    padding: 0px 10px;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  
+  <script>
+    // no parameter no return type;
+
+    function parth(){
+      console.log("Surat");
+    }
+    parth();
+    // parameter  return type;
+    function massage(name,city="surat"){
+      return console.log("Hello "+name +"welcome "+city);
+    }
+
+    // call 
+    massage("kapil");
+    massage('Parth');
+    massage('manthon');
+    function add(num1,num2){
+            c =num1+num2;
+            return c;
+    }
+     console.log(add(1,4)); 
+     console.log(add(10,45)); 
+     function sub(num1,num2=10){
+            c =num1-num2;
+            return c;
+    }
+    d=sub(10,15);
+     console.log(d); 
+
+
+    //  arrow function 
+    const x = (value)=>{
+       return  5+value;
+    }
+
+    console.log(x(10));
+    const mul=(y)=> y
+    console.log(mul(100));
+    const sq=(y)=> y*y
+    console.log(sq(100));
+    const cb=(y)=> y*y*y
+    console.log(cb(5));
+     
+     
+
+      </script>
+</body>
+</html>
