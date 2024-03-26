@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>setTimeout and clearTimeout Example</title>
+</head>
+<body>
+
+<p id="msg">Waiting for 1 seconds...</p>
+<button onclick="startTimeout()">Start Timeout</button>
+<button onclick="stopTimeout()">Stop Timeout</button>
+
+<script>
+let timeoutId;
+
+function startTimeout() {
+    timeoutId = setTimeout(function showMessage() {
+    document.getElementById("msg").textContent = "Timeout completed!";
+      },1000); 
+}
+
+function stopTimeout() {
+    clearTimeout(timeoutId);
+    document.getElementById("msg").textContent = "Timeout stopped!";
+}
+
+
+</script>
+
+</body>
+</html>
