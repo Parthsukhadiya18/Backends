@@ -1,4 +1,4 @@
-1)Which of the following is NOT a primitive data type in JavaScript?
+/* 1)Which of the following is NOT a primitive data type in JavaScript?
 
 A) string
 B) boolean
@@ -64,10 +64,10 @@ Answer: B) 22
 9)How do you comment out multiple lines in JavaScript?
 
 A) // comment //
-B) /* comment */
+B) /* comment
 C) <!-- comment -->
 D) # comment
-Answer: B) /* comment */
+Answer: B) /* comment 
 
 10)Which method is used to add new elements to the end of an array in JavaScript?
 
@@ -174,7 +174,7 @@ A) document.write("Hello World");
 B) print("Hello World");
 C) echo("Hello World");
 D) console.log("Hello World");
-Answer: D) console.log("Hello World");
+Answer: D) console.log("Hello World"); */
 body{
     margin: 0px;
     padding: 0px;
