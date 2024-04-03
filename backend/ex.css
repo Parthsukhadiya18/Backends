@@ -1,3 +1,180 @@
+1)Which of the following is NOT a primitive data type in JavaScript?
+
+A) string
+B) boolean
+C) array
+D) number
+Answer: C) array
+
+2)What will be the output of typeof null in JavaScript?
+A) object
+B) null
+C) undefined
+D) string
+Answer: A) object
+
+3)What is the correct way to declare a variable in JavaScript?
+
+A) variable name = value;
+B) let name = value;
+C) var name = value;
+D) name = value;
+Answer: B) let name = value;
+
+4)What does the === operator do in JavaScript?
+
+A) It checks for equality, without type conversion.
+B) It assigns a value to a variable.
+C) It checks for equality, with type conversion.
+D) It concatenates two strings.
+Answer: A) It checks for equality, without type conversion.
+
+5)What does the && operator do in JavaScript?
+
+A) Logical OR
+B) Logical NOT
+C) Logical AND
+D) Conditional OR
+Answer: C) Logical AND
+
+6)How do you create a function in JavaScript?
+
+A) function = myFunction() {}
+B) function myFunction() {}
+C) myFunction = function() {}
+D) myFunction() {}
+Answer: B) function myFunction() {}
+
+7)What keyword is used to exit from a loop in JavaScript?
+
+A) exit
+B) break
+C) continue
+D) return
+Answer: B) break
+
+8)What will the following code output: console.log(2 + "2");?
+
+A) 4
+B) 22
+C) 2 + "2"
+D) NaN
+Answer: B) 22
+
+9)How do you comment out multiple lines in JavaScript?
+
+A) // comment //
+B) /* comment */
+C) <!-- comment -->
+D) # comment
+Answer: B) /* comment */
+
+10)Which method is used to add new elements to the end of an array in JavaScript?
+
+A) push()
+B) add()
+C) append()
+D) insert()
+Answer: A) push()
+11)What is the correct way to access the third element of an array called myArray?
+
+A) myArray[3]
+B) myArray.get(3)
+C) myArray(3)
+D) myArray[2]
+Answer: D) myArray[2]
+
+12)Which method is used to remove the last element from an array in JavaScript?
+
+A) pop()
+B) remove()
+C) delete()
+D) splice()
+Answer: A) pop()
+
+13)What will the following code output: console.log("5" + 2);?
+
+A) 7
+B) "52"
+C) 52
+D) "5" + 2
+Answer: c) 52
+14)What is the result of 5 == "5" in JavaScript?
+
+A) true
+B) false
+C) undefined
+D) NaN
+Answer: A) true
+
+15)What is the correct way to create a JavaScript array?
+
+A) var colors = "red", "green", "blue";
+B) var colors = ["red", "green", "blue"];
+C) var colors = { "red", "green", "blue" };
+D) var colors = {"red", "green", "blue"};
+Answer: B) var colors = ["red", "green", "blue"];
+
+16)What will the following code output: console.log(typeof [])?
+
+A) array
+B) object
+C) string
+D) undefined
+Answer: B) object
+17)How do you round the number 7.25, to the nearest integer, using JavaScript?
+
+A) Math.round(7.25);
+B) round(7.25);
+C) Math.floor(7.25);
+D) ceil(7.25);
+Answer: A) Math.round(7.25);
+
+18)What is the correct JavaScript syntax for opening a new window named "newWindow"?
+
+A) window.open("url", "newWindow");
+B) open.window("url", "newWindow");
+C) window.open("newWindow", "url");
+D) open("newWindow", "url");
+Answer: A) window.open("url", "newWindow");
+
+19)What will the following code output: console.log(0.1 + 0.2 === 0.3);?
+
+A) true
+B) false
+C) NaN
+D) undefined
+Answer: B) false
+20)Which method is used to remove the first element from an array in JavaScript?
+
+A) remove()
+B) shift()
+C) pop()
+D) splice()
+Answer: B) shift()
+
+21)What will the following code output: console.log(typeof NaN);?
+
+A) number
+B) string
+C) NaN
+D) undefined
+Answer: A) number
+
+22)Which method is used to sort the elements of an array in JavaScript?
+
+A) sort()
+B) order()
+C) arrange()
+D) organize()
+Answer: A) sort()
+23)What is the correct JavaScript syntax to write "Hello World"?
+
+A) document.write("Hello World");
+B) print("Hello World");
+C) echo("Hello World");
+D) console.log("Hello World");
+Answer: D) console.log("Hello World");
 body{
     margin: 0px;
     padding: 0px;
